@@ -3,6 +3,9 @@ Pecan-Middleware
 
 **Pecan-Middleware** compiles your templates on the fly and writes them to files in your chosen destination as functions you can execute in your client-side JS.
 
+[![Build Status](https://travis-ci.org/JoeChapman/pecan-middleware.svg?branch=master)](https://travis-ci.org/JoeChapman/pecan-middleware)
+[![NPM version](https://badge.fury.io/js/pecan-middleware.svg)](http://badge.fury.io/js/pecan-middleware)
+
 If you're looking for a build tool for precompiling your templates, especially if you're dealing with large numbers of templates or even building out numanced templates into parallel locations, [Asparagus](https://github.com/JoeChapman/asparagus) is your friend.
 
 ----------------------------
