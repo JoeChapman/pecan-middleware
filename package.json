@@ -1,0 +1,47 @@
+{
+    "name": "pecan-middleware",
+    "version": "0.0.1",
+    "description": "Middleware precompiles templates on-the-fly for execution in the browser",
+    "keywords": [
+        "template",
+        "compile",
+        "jade",
+        "middleware",
+        "browser",
+        "express",
+        "includes",
+        "on-the-fly"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "hooks": "chmod +x hooks/*; cd .git/hooks && ln -sf ../../hooks/* .",
+        "unit": "node ./node_modules/mocha/bin/mocha test/",
+        "lint": "node ./node_modules/jshint/bin/jshint ./",
+        "jscs": "node ./node_modules/jscs/bin/jscs ./",
+        "test": "npm run lint && npm run jscs && npm run unit"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/JoeChapman/pecan-middleware"
+    },
+    "author": {
+        "name": "Joseph Chapman",
+        "email": "info@josephchapman.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "pecan": "0.0.1"
+    },
+    "devDependencies": {
+        "sinon": "1.10.3",
+        "mocha": "1.21.4",
+        "chai": "1.9.1",
+        "chai-as-promised": "4.1.1",
+        "sinon-chai": "2.5.0",
+        "jshint": "2.5.5",
+        "jscs": "1.6.1",
+        "express": "4.9.5",
+        "supertest": "0.13.0",
+        "bluebird": "2.3.2"
+    }
+}
