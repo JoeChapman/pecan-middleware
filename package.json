@@ -30,18 +30,18 @@
     },
     "license": "MIT",
     "dependencies": {
-        "pecan": "0.0.1"
+        "pecan": "0.0.2"
     },
     "devDependencies": {
-        "sinon": "1.10.3",
-        "mocha": "1.21.4",
-        "chai": "1.9.1",
-        "chai-as-promised": "4.1.1",
-        "sinon-chai": "2.5.0",
-        "jshint": "2.5.5",
-        "jscs": "1.6.1",
-        "express": "4.9.5",
-        "supertest": "0.13.0",
-        "bluebird": "2.3.2"
+        "sinon": "6.2.0",
+        "mocha": "5.2.0",
+        "chai": "4.1.2",
+        "chai-as-promised": "7.1.1",
+        "sinon-chai": "3.2.0",
+        "jshint": "2.9.6",
+        "jscs": "3.0.7",
+        "express": "4.16.3",
+        "supertest": "3.2.0",
+        "bluebird": "3.5.2"
     }
 }
